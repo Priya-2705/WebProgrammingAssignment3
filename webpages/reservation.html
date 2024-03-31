@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Request a Reservation</title>
+    <link rel="stylesheet" href="../css/reservationstyles.css">
+</head>
+
+<body>
+    <header>
+        <img src="../imgs/Calcux_transparent.png" alt="logo" />
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="incometax.html">Income Tax</a></li>
+                <li><a href="salestax.html">Sales Tax</a></li>
+                <li><a href="change.html">Change</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+        <p>Calcux: Request a Reservation</p>
+    </header>
+    <main>
+        <form>
+            <h1>Reservation Request</h1>
+            <fieldset>
+                <legend>General information</legend>
+                <label>Arrival date : </label><input type="date" name="arrivalDate" id="arrivalDate" required><br><br>
+                <label>Nights : </label><input type="number" name="nights" id="nights" required><br><br>
+                <label class="form-label">Adults : </label><select name="adults" id="adults" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><br>
+                <label class="form-label">Children : </label><select name="adults" id="adults" required>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><br>
+            </fieldset>
+            <fieldset>
+                <legend>Preferences</legend>
+                <label>Room type : </label><input type="radio" name="roomType" id="roomType" required><label>Standard
+                </label>
+                <input type="radio" id="roomType" name="roomType"><label>Business</label>
+                <input type="radio" id="roomType" name="roomType"><label>Suite</label><br>
+                <label>Bed type : </label><input type="radio" id="bedType" name="bedType" required><label>King</label>
+                <input type="radio" id="bedType" name="bedType"><label class="sep">Double
+                    Double</label><br><br>
+                <input type="checkbox" id="smoking" name="smoking"><label>Smoking</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact information</legend>
+                <label>Name : </label><input type="text" name="name" id="name" required><br><br>
+                <label>Email : </label><input type="email" name="email" id="email" required><br><br>
+                <label>Phone : </label><input type="number" name="phone" id="phone" required>
+            </fieldset>
+            <input class="calbutton" type="submit" value="Calculate">
+            <p>&copy; Tejeswi Devi Priya Pillarisetty 2024</p>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; &nbsp; Tejeswi Devi Priya Pillarisetty 2024</p>
+    </footer>
+
+    <script src="../js/reservationscript.js"></script>
+</body>
+
+</html>
