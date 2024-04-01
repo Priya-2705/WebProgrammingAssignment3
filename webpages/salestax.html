@@ -1,19 +1,27 @@
 <!-- Tejeswi Devi Priya Pillarisetty N01654962 -->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <!-- Meta information -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the page -->
     <title>Sales Tax</title>
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="../css/salesstyles.css">
 </head>
 
 <body>
+    <!-- Header section -->
     <header>
+        <!-- Logo -->
         <img src="../imgs/Calcux_transparent.png" alt="logo" />
+        <!-- Navigation menu -->
         <nav>
             <ul>
+                <!-- Navigation links -->
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="incometax.html">Income Tax</a></li>
                 <li><a href="salestax.html">Sales Tax</a></li>
@@ -21,28 +29,40 @@
                 <li><a href="reservation.html">Reservation</a></li>
             </ul>
         </nav>
+        <!-- Page title -->
         <p>Calcux: Sales Tax Calculator</p>
     </header>
+
+    <!-- Main content section -->
     <main>
+        <!-- Form for sales tax calculation -->
         <form>
             <fieldset>
+                <!-- Form title -->
                 <h1>Sales Tax Calculator</h1><br>
+                <!-- Instruction for users -->
                 <h4>Enter Subtotal and Tax Rate and click "Calculate"</h4><br>
+                <!-- Input fields for subtotal, tax rate, sales tax, and total -->
                 <label>Subtotal : </label><input type="number" name="subTotal" id="subTotal" required><br><br>
                 <label>Tax Rate : </label><input type="number" name="taxRate" id="taxRate" required><br><br>
                 <label>Sales Tax : </label><input type="number" name="salesTax" id="salesTax" disabled><br><br>
                 <label>Total : </label><input type="number" name="total" id="total" disabled><br><br>
+                <!-- Buttons for calculation and form clearing -->
                 <input type="submit" id="calculate" value="Calculate">&nbsp;&nbsp;&nbsp;&nbsp;
                 <input type="submit" id="clearForm" value="Clear Form"><br><br>
-
+                <!-- Copyright information -->
                 <p>&copy; Tejeswi Devi Priya Pillarisetty 2024</p>
             </fieldset>
         </form>
     </main>
+
+    <!-- Footer section -->
     <footer>
+        <!-- Copyright information -->
         <p>&copy; &nbsp; Tejeswi Devi Priya Pillarisetty 2024</p>
     </footer>
 
+    <!-- JavaScript file for form validation and calculation -->
     <script src="../js/salesscript.js"></script>
 </body>
 

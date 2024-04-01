@@ -3,17 +3,24 @@
 <html lang="en">
 
 <head>
+    <!-- Meta information -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the page -->
     <title>Income Tax</title>
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="../css/incomestyles.css">
 </head>
 
 <body>
+    <!-- Header section -->
     <header>
+        <!-- Logo -->
         <img src="../imgs/Calcux_transparent.png" alt="logo" />
+        <!-- Navigation menu -->
         <nav>
             <ul>
+                <!-- Navigation links -->
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="incometax.html">Income Tax</a></li>
                 <li><a href="salestax.html">Sales Tax</a></li>
@@ -21,25 +28,37 @@
                 <li><a href="reservation.html">Reservation</a></li>
             </ul>
         </nav>
+        <!-- Page title -->
         <p>Calcux: Income Tax Calculator</p>
     </header>
+
+    <!-- Main content section -->
     <main>
+        <!-- Form for income tax calculation -->
         <form>
             <fieldset>
+                <!-- Form title -->
                 <h1>Income Tax Calculator</h1><br>
+                <!-- Input field for taxable income -->
                 <label>Enter taxable income : </label><input type="number" name="taxableIncome" id="taxableIncome"
                     required><br><br>
+                <!-- Submit button -->
                 <input type="submit" id="calculate" value="Calculate"><br><br>
+                <!-- Display field for income tax owed (disabled) -->
                 <label>Income tax owed : </label><input type="number" name="incomeTaxOwed" id="incomeTaxOwed"
                     disabled><br><br>
-
+                <!-- Copyright information -->
                 <p>&copy; Tejeswi Devi Priya Pillarisetty 2024</p>
             </fieldset>
         </form>
     </main>
+
+    <!-- Footer section -->
     <footer>
+        <!-- Copyright information -->
         <p>&copy; &nbsp; Tejeswi Devi Priya Pillarisetty 2024</p>
     </footer>
+    <!-- JavaScript file for income tax calculation -->
     <script src="../js/incomescript.js"></script>
 </body>
 

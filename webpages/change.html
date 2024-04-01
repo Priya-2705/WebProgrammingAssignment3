@@ -3,17 +3,24 @@
 <html lang="en">
 
 <head>
+    <!-- Meta information -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the page -->
     <title>Change</title>
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="../css/changestyles.css">
 </head>
 
 <body>
+    <!-- Header section -->
     <header>
+        <!-- Logo -->
         <img src="../imgs/Calcux_transparent.png" alt="logo" />
+        <!-- Navigation menu -->
         <nav>
             <ul>
+                <!-- Navigation links -->
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="incometax.html">Income Tax</a></li>
                 <li><a href="salestax.html">Sales Tax</a></li>
@@ -21,15 +28,23 @@
                 <li><a href="reservation.html">Reservation</a></li>
             </ul>
         </nav>
+        <!-- Page title -->
         <p>Calcux: Change Calculator</p>
     </header>
+
+    <!-- Main content section -->
     <main>
+        <!-- Form for change calculation -->
         <form>
             <fieldset>
+                <!-- Form title -->
                 <h1>Change Calculator</h1><br>
+                <!-- Input field for amount of change due -->
                 <label>Enter amount of change due (0-99) : </label><input type="number" name="changeDue" id="changeDue"
                     required><br><br>
+                <!-- Submit button -->
                 <input type="submit" id="calculate" value="Calculate"><br><br>
+                <!-- Display fields for number of quarters, dimes, nickels, and pennies (disabled) -->
                 <label class="form-label">Quarters : </label><input type="number" name="quarters" id="quarters"
                     disabled><br><br>
                 <label class="form-label">Dimes : </label><input type="number" name="dimes" id="dimes" disabled><br><br>
@@ -37,14 +52,19 @@
                     disabled><br><br>
                 <label class="form-label">Pennies : </label><input type="number" name="pennies" id="pennies"
                     disabled><br><br>
+                <!-- Copyright information -->
                 <p>&copy; Tejeswi Devi Priya Pillarisetty 2024</p>
             </fieldset>
         </form>
     </main>
+
+    <!-- Footer section -->
     <footer>
+        <!-- Copyright information -->
         <p>&copy; &nbsp; Tejeswi Devi Priya Pillarisetty 2024</p>
     </footer>
 
+    <!-- JavaScript file for change calculation -->
     <script src="../js/changescript.js"></script>
 </body>
 

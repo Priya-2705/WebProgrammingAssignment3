@@ -1,5 +1,6 @@
 "use strict";
 
+// Event listener for when the DOM content is fully loaded
 document.addEventListener("DOMContentLoaded", function () {
     // Declaration of constant for email pattern
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
