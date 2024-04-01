@@ -45,14 +45,14 @@ In this assignment, you’ll use nested if statements and arithmetic expressions
 
 This is the 2020 table for the federal income tax on individuals that you should use for calculating the tax:
 
-Taxable income Over…   But not over…		Income tax			      Of excess over…
-$0                     $9,875	          $0 plus 10%	          $0
-$9,875	               $40,125	        $987.50 plus 12%	    $9,875
+Taxable income Over…   But not over…	Income tax	  Of excess over…
+$0                     $9,875	        $0 plus 10%	          $0
+$9,875	               $40,125	        $987.50 plus 12%	  $9,875
 $40,125	               $85,525	        $4,617.50 plus 22%	  $40,125
 $85,525	               $163,300	        $14,605.50 plus 24%	  $85,525
-$163,300	             $207,350	        $33,271.50 plus 32%	  $163,300
-$207,350	             $518,400	        $47,367.50 plus 35%	  $207,350
-$518,400		                            $156,235.00 plus 37%	$518,400
+$163,300	       $207,350	        $33,271.50 plus 32%	  $163,300
+$207,350	       $518,400	        $47,367.50 plus 35%	  $207,350
+$518,400		                $156,235.00 plus 37%	  $518,400
 			
 Create the $() function and a DOMContentLoaded event handler that attaches a function named processEntry() to the click event of the Calculate button and moves the focus to the first text box.
 
