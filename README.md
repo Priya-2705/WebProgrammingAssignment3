@@ -1,6 +1,6 @@
-Web  Programming
+# Web  Programming
 
-Assignment 3 Part 1: Develop the Sales Tax Calculator
+## Assignment 3 Part 1: Develop the Sales Tax Calculator
 
 In this assignment, you’ll develop an application that calculates the sales tax and invoice total after the user enters the subtotal and tax rate.
 
@@ -12,7 +12,8 @@ In this assignment, you’ll develop an application that calculates the sales ta
 
 4.	Add data validation to the processEntries() function. The subtotal entry should be a valid, positive number that’s less than 10,000. The tax rate should be a valid, positive number that’s less than 12. The error messages should be displayed in alert dialog boxes, and the error messages should be:
 
-Subtotal must be > 0 and < 10000 Tax Rate must be > 0 and < 12
+	1. Subtotal must be > 0 and < 10000 
+	2. Tax Rate must be > 0 and < 12
 
 5.	Add JavaScript that moves the cursor to the Subtotal field when the application starts and when the user clicks on the Calculate button.
 
@@ -23,7 +24,7 @@ Subtotal must be > 0 and < 10000 Tax Rate must be > 0 and < 12
 9.	In index.html, add a tag for  your name and student number.
 
 
-Assignment 3 Part 2: Develop the Change Calculator
+## Assignment 3 Part 2: Develop the Change Calculator
 
 In this assignment, you’ll develop an application that tells how many quarters, dimes, nickels, and pennies are needed to make change for any amount of change from 0 through 99 cents. One way to get the results is to use the divide and modulus operators along with the parseInt() method for truncating the results so they are whole numbers.
 
@@ -38,7 +39,7 @@ In this assignment, you’ll develop an application that tells how many quarters
 5.	In index.html, add a tag to your name and student number.
 
 
-Assignment 3 Part 3: Develop the Income Tax Calculator
+## Assignment 3 Part 3: Develop the Income Tax Calculator
 
 In this assignment, you’ll use nested if statements and arithmetic expressions to calculate the federal income tax that is owed for a taxable income amount.
 
@@ -64,7 +65,7 @@ Create the $() function and a DOMContentLoaded event handler that attaches a fun
 4.	In index.html, add your name and student number. 
 
 
-Assignment 3 Part 4: Use JavaScript to validate a form
+## Assignment 3 Part 4: Use JavaScript to validate a form
 
 In this assignment, you’ll use JavaScript to validate a reservation request form.
 
@@ -74,10 +75,10 @@ In this assignment, you’ll use JavaScript to validate a reservation request fo
 
 3.	Code an event handler for the submit event of the form. This event handler should validate the user entries. If any of the entries are invalid, the code should cancel the submission of the form. The validation is as follows:
 
-A value must be entered into each text box. The number of nights must be numeric.
+	1. A value must be entered into each text box. The number of nights must be numeric.
 
-The email address must match the pattern that’s provided.
+	2. The email address must match the pattern that’s provided.
 
-Be sure to trim the entries and put them back into the controls regardless of whether the entries are valid.
+	3. Be sure to trim the entries and put them back into the controls regardless of whether the entries are valid.
 
 4.	In index.html, create a tag to your name and student number.
