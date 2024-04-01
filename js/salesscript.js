@@ -1,3 +1,5 @@
+// Tejeswi Devi Priya Pillarisetty N01654962 Web Programming and Design
+
 "use strict";
 
 // Function to select elements by their CSS selector

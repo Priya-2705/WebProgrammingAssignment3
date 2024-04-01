@@ -1,3 +1,5 @@
+// Tejeswi Devi Priya Pillarisetty N01654962 Web Programming and Design
+
 "use strict";
 
 // Event listener for when the DOM content is fully loaded
